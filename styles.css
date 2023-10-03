@@ -1,0 +1,84 @@
+*{ 
+    margin: 0;  
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+body{
+    margin: 20px;  
+    padding: 20px;
+    border: solid black;
+}
+header{
+    background-color:burlywood;
+    margin: 20px;  
+    padding: 20px;
+    border: solid red;
+}
+main {
+    margin: 20px;
+    padding: 20px;
+    border: solid darkblue;
+    
+}
+footer{ 
+    background-color: chartreuse;
+    margin: 20px;  
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+.menu{
+    background-color: black;
+    font-family: cursive;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z- z-index: 100;
+
+}
+#titulo{
+    color: #24021e;
+}
+.boton{ /* boton de inscribirse */
+    padding: 10px 20px;
+    background-color: #af4c9e;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.boton.contacto{  /*boton de contacto */
+    background-color: blue;
+    color: aliceblue;
+    font-style: italic;
+}
+#secccion-principal{
+    background-color: rgb(235, 162, 67);
+}
+.seccion{ 
+    background-color: rgb(175, 226, 226);
+}
+
+p{
+background-color: gold;
+margin: 20px;  
+padding: 20px;
+}
+#contactarse{
+    background-color: aliceblue;
+}
+.header{ 
+    background-color: #af4c9e;
+}
